@@ -31,7 +31,7 @@ gpus          = '0'  # e.g. 0,1,2,3
 ngpus         = len(gpus.split(','))
 num_workers   = 4
 
-batch_size    = 32
+batch_size    = 64
 learning_rate = 0.001#0.1
 momentum  = 0.9
 decay = 0.0005
